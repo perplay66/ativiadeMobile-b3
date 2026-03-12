@@ -35,19 +35,19 @@ class MainActivity : ComponentActivity() {
             Column(modifier = Modifier.padding(16.dp)) {
 
                 MessageCard(
-                    Message("Android", "Jetpack Compose", R.drawable.marquintunado)
+                    Message("McQueen", "Jetpack Compose", R.drawable.marquintunado)
                 )
 
                 Spacer(modifier = Modifier.height(16.dp))
 
                 MessageCard(
-                    Message("Samuel", "Aprendendo Jetpack Compose", R.drawable.relampago)
+                    Message("Pedro", "Aprendendo Jetpack Compose", R.drawable.relampago)
                 )
 
                 Spacer(modifier = Modifier.height(16.dp))
 
                 MessageCard(
-                    Message("Lexi", "Compose é incrível!", R.drawable.relampagolindo)
+                    Message("Drax", "Compose é incrível!", R.drawable.relampagolindo)
                 )
             }
         }
